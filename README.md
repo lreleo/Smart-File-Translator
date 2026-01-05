@@ -88,26 +88,10 @@ Google 翻译：开箱即用。
 
 修改后缀：批量修改文件扩展名。
 
-📦 如何打包 (Build)
+<img width="959" height="801" alt="Snipaste_2026-01-05_19-05-08" src="https://github.com/user-attachments/assets/a5bb1275-3151-4a2a-a205-a829eead2d8c" />
 
-如果你想生成 .exe (Windows) 或 .app (macOS) 发送给没有安装 Python 的朋友，可以使用 PyInstaller。
+![微信截图_20260105190704](https://github.com/user-attachments/assets/0e6ff406-2989-4a00-967f-222a25af1d01)
 
-安装 PyInstaller
-
-pip install pyinstaller
-
-
-Windows 打包命令
-
-pyinstaller --noconsole --onefile --name="智能翻译工具" file_translator.py
-
-
-macOS 打包命令
-
-pyinstaller --noconsole --onefile --windowed --name="SmartTranslator" file_translator.py
-
-
-生成的程序将位于 dist 文件夹中。
 
 ⚠️ 注意事项
 
